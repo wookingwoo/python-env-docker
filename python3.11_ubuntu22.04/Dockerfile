@@ -16,5 +16,3 @@ RUN apt-get -y install python3.11-distutils
 # End Of Install python 3.11
 
 CMD ["python3"]
-
-# docker build --tag python3.11-ubuntu22.04:1.0 .
