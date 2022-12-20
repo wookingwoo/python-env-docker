@@ -1,0 +1,21 @@
+# python3.9_ubuntu22.04
+
+## Make Docker Images
+
+### Pull Container Images
+
+```bash
+docker pull wookingwoo/python3.9-on-ubuntu22.04:1.0
+```
+
+### Building Docker Images with Dockerfiles
+
+```bash
+docker build --tag python3.9-on-ubuntu22.04:1.0 .
+```
+
+## Run Container
+
+```bash
+docker run -it --name python3.9-on-ubuntu22.04 python3.9-on-ubuntu22.04:1.0
+```
