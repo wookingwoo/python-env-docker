@@ -14,6 +14,7 @@ RUN apt-get -y install python3.11
 
 # Making Python 3.11 the default version.
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.11 1
+RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 1
 
 # Installing supporting packages for Python 3.11
 RUN apt-get -y update
