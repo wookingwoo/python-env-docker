@@ -17,7 +17,6 @@ RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.11 1
 RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 1
 
 # Installing supporting packages for Python 3.11
-RUN apt-get -y update
 RUN apt-get -y install python3-pip python3.11-dev python3.11-venv python3.11-distutils python3.11-gdbm python3.11-tk python3.11-lib2to3
 
 # CMD ["python3"]
